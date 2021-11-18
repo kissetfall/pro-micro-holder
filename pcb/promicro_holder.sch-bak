@@ -249,21 +249,8 @@ Text GLabel 1450 1700 0    50   Input ~ 0
 GND
 Text GLabel 1450 1900 0    50   Input ~ 0
 GND
-Text GLabel 4450 1500 2    50   Input ~ 0
+Text GLabel 4150 1400 2    50   Input ~ 0
 GND
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5CF5C09D
-P 4300 1500
-F 0 "JP2" H 4300 1705 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 4300 1614 50  0000 C CNN
-F 2 "#footprint:SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm" H 4300 1500 50  0001 C CNN
-F 3 "~" H 4300 1500 50  0001 C CNN
-	1    4300 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 1500 4150 1500
 Text GLabel 4300 2500 0    50   Input ~ 0
 dummyGND
 $Comp
@@ -279,18 +266,7 @@ F 3 "" H 4300 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 2500 4300 2600
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 5CF79A09
-P 4300 1700
-F 0 "JP4" H 4300 1905 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 4300 1814 50  0000 C CNN
-F 2 "#footprint:SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm" H 4300 1700 50  0001 C CNN
-F 3 "~" H 4300 1700 50  0001 C CNN
-	1    4300 1700
-	1    0    0    -1  
-$EndComp
-Text GLabel 4450 1700 2    50   Input ~ 0
+Text GLabel 4150 1700 2    50   Input ~ 0
 dummyGND
 Wire Wire Line
 	4150 1700 4050 1700
@@ -324,7 +300,6 @@ Wire Wire Line
 Connection ~ 1550 1800
 Wire Wire Line
 	4050 1500 3450 1500
-Connection ~ 4050 1500
 Wire Wire Line
 	3450 1600 4050 1600
 Connection ~ 4050 1600

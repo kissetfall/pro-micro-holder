@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "SU120 Yakitori Keyboard"
+Title "pro micro holder"
 Date ""
-Rev "8"
-Comp "@e3w2q"
+Rev "3"
+Comp "ergohaven"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -89,7 +89,7 @@ Y6
 Text GLabel 4100 3550 2    50   Input ~ 0
 Y5
 $Comp
-L power:GND #PWR0101
+L promicro_holder-rescue:GND-power #PWR0101
 U 1 1 5CE3BEE4
 P 1050 950
 F 0 "#PWR0101" H 1050 700 50  0001 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 1050 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L promicro_holder-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5CE3BEEA
 P 1050 800
 F 0 "#FLG0101" H 1050 875 50  0001 C CNN
@@ -111,7 +111,7 @@ F 3 "" H 1050 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L promicro_holder-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5CE3BEF0
 P 700 950
 F 0 "#FLG0102" H 700 1025 50  0001 C CNN
@@ -126,7 +126,7 @@ Wire Wire Line
 Wire Wire Line
 	700  800  700  950 
 $Comp
-L power:VCC #PWR0102
+L promicro_holder-rescue:VCC-power #PWR0102
 U 1 1 5CE3E880
 P 700 800
 F 0 "#PWR0102" H 700 650 50  0001 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 700 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0103
+L promicro_holder-rescue:VCC-power #PWR0103
 U 1 1 5CE3F20D
 P 5000 1150
 F 0 "#PWR0103" H 5000 1000 50  0001 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 5000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L promicro_holder-rescue:GND-power #PWR0104
 U 1 1 5CE4B3AC
 P 4650 2600
 F 0 "#PWR0104" H 4650 2350 50  0001 C CNN
@@ -161,7 +161,7 @@ $EndComp
 Text GLabel 1250 4400 2    50   Input ~ 0
 data
 $Comp
-L power:GND #PWR0109
+L promicro_holder-rescue:GND-power #PWR0109
 U 1 1 5CE6AB53
 P 1550 4450
 F 0 "#PWR0109" H 1550 4200 50  0001 C CNN
@@ -172,7 +172,7 @@ F 3 "" H 1550 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0110
+L promicro_holder-rescue:VCC-power #PWR0110
 U 1 1 5CE6AC90
 P 1550 4050
 F 0 "#PWR0110" H 1550 3900 50  0001 C CNN
@@ -192,7 +192,7 @@ Wire Wire Line
 	1550 4200 1550 4050
 NoConn ~ 1250 4100
 $Comp
-L Connector_Generic:Conn_01x08 J3
+L promicro_holder-rescue:Conn_01x08-Connector_Generic J3
 U 1 1 5CE5F218
 P 3900 3250
 F 0 "J3" H 3980 3242 50  0000 L CNN
@@ -203,7 +203,7 @@ F 3 "~" H 3900 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J4
+L promicro_holder-rescue:Conn_01x08-Connector_Generic J4
 U 1 1 5CE5F3DE
 P 1750 3250
 F 0 "J4" H 1670 3767 50  0000 C CNN
@@ -254,7 +254,7 @@ GND
 Text GLabel 4300 2500 0    50   Input ~ 0
 dummyGND
 $Comp
-L power:GND #PWR01
+L promicro_holder-rescue:GND-power #PWR01
 U 1 1 5CF6A65C
 P 4300 2600
 F 0 "#PWR01" H 4300 2350 50  0001 C CNN

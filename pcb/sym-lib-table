@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name su120-rescue)(type Legacy)(uri ${KIPRJMOD}/su120-rescue.lib)(options "")(descr ""))
   (lib (name "#library")(type Legacy)(uri ${KIPRJMOD}/library.lib)(options "")(descr ""))
+  (lib (name promicro_holder-rescue)(type Legacy)(uri ${KIPRJMOD}/promicro_holder-rescue.lib)(options "")(descr ""))
 )
